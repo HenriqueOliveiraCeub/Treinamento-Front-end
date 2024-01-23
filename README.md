@@ -10,4 +10,4 @@ https://henrique-o.github.io/Treinamento-Front-end/
 
 Escolha um projeto:
 
-- [Exercício 2](Pagina-de-receita-Treino-2/) - Página de receita.
+- [Exercício 2](Pagina-de-receita-Treino-2/index.html/) - Página de receita.
