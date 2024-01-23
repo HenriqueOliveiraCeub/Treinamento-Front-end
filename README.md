@@ -12,3 +12,4 @@ Escolha um projeto:
 
 - [Exercício 2](Pagina-de-receita-Treino-2/index.html/) - Página de receita.
 - [Exercício 3](Pagina-de-perfil-social-Treino-3/index.html/) - Página de perfil social
+- Teste
