@@ -9,4 +9,4 @@ Repositório feito para treinar do básico ao avançado HTM, CSS e JavaScript
 
 Escolha um projeto:
 
-- [Exercício 2](Página-de-receita-Treino-2/) - Página de receita.
+- [Exercício 2](Pagina-de-receita-Treino-2/) - Página de receita.
