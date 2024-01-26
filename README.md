@@ -14,3 +14,4 @@ Escolha um projeto:
 - [Projeto 3](Pagina-de-perfil-social-Treino-3/index.html/) - Página de perfil social
 - [Projeto 4](Pagina-de-blog-cartao-Treino-4/index.html/) - Página card de blog
 - [Projeto 5](Pagina-de-faq-Treino-5/index.html) - Página de perguntas frequentes
+- [Projeto 6](Pagina-de-resultados-Treino-6/index.html) - Página de resumo de resultados
