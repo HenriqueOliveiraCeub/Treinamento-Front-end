@@ -1,4 +1,3 @@
-<body>
 # Meu Repositório
 
 Repositório feito para treinar do básico ao avançado HTML, CSS e JavaScript
@@ -17,9 +16,3 @@ Escolha um projeto:
 - [Projeto 5](Pagina-de-faq-Treino-5/index.html) - Página de perguntas frequentes
 - [Projeto 6](Pagina-de-resultados-Treino-6/index.html) - Página de resumo de resultados
 
-</body>
-<style>
-    body {
-        background-color: red;
-    }
-</style>
