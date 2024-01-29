@@ -3,6 +3,7 @@
 Repositório feito para treinar do básico ao avançado HTML, CSS e JavaScript
 
 # Acessse as páginas aqui
+Aqui você pode ver todas as páginas prontas e funcionais
 
 https://henrique-o.github.io/Treinamento-Front-end/
 
