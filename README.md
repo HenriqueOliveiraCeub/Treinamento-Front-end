@@ -8,7 +8,7 @@ Aqui você pode ver todas as páginas prontas e funcionais
 https://henrique-o.github.io/Treinamento-Front-end/
 
 ## Projetos
-
+Aqui você pode ver o código do projeto
 Escolha um projeto:
 
 - [Projeto 2](Pagina-de-receita-Treino-2/index.html) - Página de receita.
