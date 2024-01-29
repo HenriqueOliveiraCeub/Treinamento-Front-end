@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        font-size: 15px;
+        color: var(--branco);
+        background-color: var(--preto);
+        padding: 16px;
+    }
+
+    .title {
+        margin-bottom: 16px;
+    }
+
+    .links>a {
+        color: var(--branco);
+        font-size: 20px;
+        margin: 0 8px;
+    }
+
+    .parallax2 {
+        background-image: url("asserts/img/imgP2.png");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+
+    .parallax3 {
+        background-image: url("asserts/img/imgP3.png");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax4 {
+        background-image: url("asserts/img/imgP4.png");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax5 {
+        background-image: url("asserts/img/imgP5.png");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax6 {
+        background-image: url("asserts/img/imgP6.png");
+        min-height: 200px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    footer > h1{
+        text-align: center;
+        color: var(--branco);
+        background-color: var(--preto);
+        padding: 32px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: var(--branco);
+        background-color: var(--preto);
+        padding: 32px 0 32px 32px;
+    }
+
+    .links>a {
+        margin-right: 32px;
+        color: var(--branco);
+        font-size: 40px;
+    }
+
+    .parallax2 {
+        background-image: url("asserts/img/imgP2.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax2:hover {
+        filter: blur(1px);
+    }
+
+    .parallax3 {
+        background-image: url("asserts/img/imgP3.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax3:hover {
+        filter: blur(1px);
+    }
+
+    .parallax4 {
+        background-image: url("asserts/img/imgP4.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax4:hover {
+        filter: blur(1px);
+    }
+
+    .parallax5 {
+        background-image: url("asserts/img/imgP5.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax5:hover {
+        filter: blur(1px);
+    }
+
+    .parallax6 {
+        background-image: url("asserts/img/imgP6.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(0);
+        transition: filter 0.5s ease-in-out;
+    }
+
+    .parallax6:hover {
+        filter: blur(1px);
+    }
+
+    footer > h1{
+        color: var(--branco);
+        background-color: var(--preto);
+        padding: 32px;
+    }
+}
