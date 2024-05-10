@@ -18,4 +18,6 @@ Escolha um projeto:
 - [Projeto 5](Pagina-de-faq-Treino-5/index.html) - Página de perguntas frequentes
 - [Projeto 6](Pagina-de-resultados-Treino-6/index.html) - Página de resumo de resultados
 - [Projeto 7](Pagina-de-preview-card-Treino-7/index.html) - Página de promoção card
+- [Projeto 8](site-externo-PAEs/index.html) - Página de promoção card
+- 
 
