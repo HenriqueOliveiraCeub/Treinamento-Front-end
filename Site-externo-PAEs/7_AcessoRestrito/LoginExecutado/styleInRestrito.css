@@ -1,0 +1,707 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #f8f7f4;
+    --preto: #0B1215;
+    --azulEscuro: #182534;
+    --AzulAcizentado: #112D43;
+    --azulClaro: #3A96DD;
+
+    --inter: "Inter", sans-serif;
+}
+
+@media screen and (max-width: 1055px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 24px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .topnav {
+        display: none;
+    }
+
+    .navMobile {
+        background-color: var(--AzulAcizentado);
+        font-size: 14px;
+    }
+
+    .navMobile>div>span {
+        color: var(--branco);
+    }
+
+    #menu-button {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        border: none;
+        padding: 16px;
+        font-size: 25px;
+    }
+
+    #menu {
+        display: none;
+        margin-top: 10px;
+    }
+
+    #menu>ul>li {
+        font-size: 16px;
+        text-decoration: none;
+        margin-top: 5px;
+        padding: 4px 20px;
+    }
+
+    .division{
+        height: 1px;
+        background-color: var(--branco);
+    }
+
+    .moreLinks {
+        margin-left: 10px;
+    }
+
+    .subLinks {
+        margin-left: 20px;
+    }
+
+    .navMobile a {
+        color: var(--branco);
+        text-decoration: none;
+    }
+
+    .navMobile ul,
+    .navMobile li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    h1 {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        color: var(--branco);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--AzulAcizentado);
+        margin: 32px 24px;
+        padding: 24px;
+        border-radius: 32px;
+        gap: 16px;
+    }
+
+    .div1 > input {
+        width: 100%;
+        padding: 16px;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .submit {
+        width: 75%;
+        font-size: 20px;
+        border-radius: 8px;
+        font-weight: 700;
+        padding: 8px;
+        border: none;
+    }
+
+    .submit:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        font-weight: 700;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .div1 > span {
+        font-size: 15px;
+        color: var(--branco);
+        margin-top: 16px;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin: 32px 24px 0 24px;
+        gap: 24px;
+    }
+
+    .logoFooter,
+    .footerInsta,
+    .footerYoutube {
+        display: none
+    }
+
+    h3 {
+        color: var(--branco);
+
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 15px;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 13px;
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (min-width: 1055px) and (max-width: 1229px) {
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 64px 180px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--AzulAcizentado);
+        padding: 0 180px;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-family: var(--inter);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: var(--branco);
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        flex-grow: 1;
+    }
+
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn {
+        font-size: 15px;
+        border: none;
+        outline: none;
+        color: var(--branco);
+        padding: 24px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--AzulAcizentado);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: var(--branco);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .dropdown-content > .borderBottom {
+        border-bottom: none;
+    }
+
+    /* Add a dark background on topnav links and the dropdown button on hover */
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        transition: 0.3s;
+    }
+
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        cursor: pointer;
+    }
+
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .navMobile {
+        display: none;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    h1 {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        color: var(--branco);
+        text-transform: uppercase;
+        margin-bottom: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--AzulAcizentado);
+        margin: 64px 360px;
+        padding: 64px 0;
+        border-radius: 32px;
+        gap: 16px;
+    }
+
+    .div1 > input {
+        width: 300px;
+        height: 50px;
+        padding-left: 16px;
+        font-size: 20px;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .submit {
+        width: 300px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 8px;
+        font-weight: 700;
+        border: none;
+    }
+
+    .submit:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        font-weight: 700;
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .div1 > span {
+        font-size: 15px;
+        color: var(--branco);
+        margin-top: 16px;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        margin: 32px 180px 64px 180px;
+        gap: 50px;
+    }
+
+    .footer>.headerSocialMedias>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .footerInsta,
+    .footerYoutube {
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .footer>.headerSocialMedias>a>svg:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    h3 {
+        color: var(--branco);
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 15px;
+        padding-bottom: 64px;
+    }
+
+}
+
+@media screen and (min-width: 1230px) {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--azulEscuro);
+        padding: 64px 180px;
+    }
+
+    .headerSocialMedias {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap: 32px;
+    }
+
+    .header>div>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .insta,
+    .youtube {
+        padding: 16px;
+        border-radius: 16px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .insta:hover,
+    .youtube:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    /* Add a black background color to the top navigation */
+    .topnav {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--AzulAcizentado);
+        padding: 0 180px;
+        overflow: hidden;
+        text-transform: uppercase;
+        font-family: var(--inter);
+    }
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        float: left;
+        display: block;
+        color: var(--branco);
+        text-align: center;
+        padding: 24px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        flex-grow: 1;
+    }
+
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+        display: none;
+    }
+
+    /* Dropdown container - needed to position the dropdown content */
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    /* Style the dropdown button to fit inside the topnav */
+    .dropdown .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: var(--branco);
+        padding: 24px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+        text-transform: uppercase;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: var(--AzulAcizentado);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Style the links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: var(--branco);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        text-transform: uppercase;
+        cursor: pointer;
+        border-bottom: 1px solid var(--branco)
+    }
+
+    .dropdown-content > .borderBottom {
+        border-bottom: none;
+    }
+
+    /* Add a dark background on topnav links and the dropdown button on hover */
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        transition: 0.3s;
+    }
+
+    /* Add a grey background to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: var(--azulClaro);
+        color: var(--branco);
+        cursor: pointer;
+    }
+
+    /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .navMobile {
+        display: none;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    body {
+        background-color: var(--azulEscuro);
+        font-family: var(--inter);
+    }
+
+    h1 {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        text-transform: uppercase;
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+
+    h2 {
+        color: var(--branco);
+        font-size: 40px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 64px 180px;
+        gap: 16px;
+    }
+
+    .pae {
+        background-color: var(--AzulAcizentado);
+        color: var(--branco);
+        padding: 16px;
+        border-radius: 8px;
+    }
+
+    hr {
+        background-color: var(--azulClaro);
+        border: none;
+        height: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        margin: 32px 180px 64px 180px;
+        gap: 100px;
+    }
+
+    .footer>.headerSocialMedias>a>svg {
+        background-color: var(--AzulAcizentado);
+    }
+
+    .footerInsta,
+    .footerYoutube {
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .footer>.headerSocialMedias>a>svg:hover {
+        background-color: var(--azulClaro);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    h3 {
+        color: var(--branco);
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+
+    .textFooter {
+        color: var(--branco);
+        font-size: 25px;
+        text-align: justify;
+    }
+
+    .rigths {
+        color: var(--branco);
+        font-size: 20px;
+        padding-bottom: 64px;
+    }
+}
