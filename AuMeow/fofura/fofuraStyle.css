@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #F8F7F4;
+    --preto: #000000;
+    --rosa: #F2AFEF;
+    --rosaEscuro: #C499F3;
+    --roxo: #7360DF;
+    --roxoEscuro: #33186B;
+
+    --inter: "Inter", sans-serif;
+    --josefin: "Josefin Slab", serif;
+
+}
+
+/* Quebrar em 1185 */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rosaEscuro);
+    padding: 24px 180px;
+}
+
+.logo>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+}
+
+a>span {
+    color: var(--branco);
+    font-family: var(--inter);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    gap: 24px;
+}
+
+nav>a {
+    font-family: var(--inter);
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.pgAtual {
+    text-decoration: underline;
+}
+
+.cadastroNav {
+    background-color: var(--roxoEscuro);
+    padding: 16px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 8px;
+}
+
+.cadastroNav:hover {
+    background-color: var(--roxo);
+    transition: 0.3s;
+}
+
+body {
+    background-color: var(--rosa);
+}
+
+body > section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 64px 180px;
+}
+
+.tocaSegura {
+    background-color: #0367A7;
+}
+
+.vamosFrajolar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #008453;
+}
+
+.adotaPetz {
+    background-color: #FFA96C;
+}
+
+body > section > .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body > section > .column > span {
+    color: var(--branco);
+    width: 640px;
+    height: auto;
+    font-size: 56px;
+    font-family: var(--josefin);
+    text-align: justify;
+}
+
+body > section > div > div {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+}
+
+body > section > div > div > a {
+    background-color: var(--branco);
+    color: var(--roxoEscuro);
+    font-family: var(--josefin);
+    font-size: 36px;
+    text-decoration: none;
+}
+
+body > section > div > div > a:hover {
+    background-color: #ebebeb;
+}
+
+.siteTS, .siteVF ,.siteAP {
+    padding: 8px 68px;
+    border-radius: 8px;
+}
+
+.siteTS, .instaTS{
+    color: #0367A7;
+}
+
+.siteVF, .instaVF{
+    color: #008453;
+}
+
+.siteAP {
+    color: #FFA96C;
+}
+
+.instaTS, .instaVF {
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--rosaEscuro);
+    padding: 64px 180px;
+    gap: 32px;
+}
+
+.content4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content4>img {
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.content4>span {
+    color: var(--branco);
+    font-family: var(--inter);
+    font-size: 32px;
+}
+
+.socialMedias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 8px;
+    gap: 40px;
+}
+
+.fa-house,
+.fa-instagram {
+    background-color: var(--roxoEscuro);
+    color: var(--branco);
+    font-size: 34px;
+    padding: 16px;
+    border-radius: 100px;
+}
+
+.fa-house:hover,
+.fa-instagram:hover {
+    background-color: var(--roxo);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.message>input {
+    background-color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    color: var(--branco);
+    font-family: var(--inter)
+}
+
+.titleContact {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.textContact {
+    font-size: 24px;
+}
+
+#email {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#telephone {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.message>button {
+    background-color: var(--roxoEscuro);
+    color: var(--branco);
+    padding: 12px 0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.message>button:hover {
+    background-color: var(--roxo);
+    transition: 0.3s;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titleNavegation {
+    color: var(--branco);
+    font-family: var(--inter);
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.navigation>a {
+    font-size: 32px;
+    color: var(--branco);
+    margin-bottom: 8px;
+}
+
+.pg {
+    text-decoration: none;
+}
+
+.pgAtual {
+    text-decoration: underline;
+}
